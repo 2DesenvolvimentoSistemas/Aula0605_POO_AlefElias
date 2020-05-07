@@ -20,7 +20,7 @@ public class TesteProduto {
         
         meuProduto.codigo='0';
         
-        meuProduto.descricao="Arroz";
+        meuProduto.descricao="Feijão";
         
         meuProduto.setor='M';
         
@@ -28,7 +28,7 @@ public class TesteProduto {
         
         meuProduto.desconto='5';
         
-        meuProduto.disponivel= false;
+        meuProduto.disponivel= true;
         
         //Exibindo a minha caranga.
         System.out.println("\n\t\t\t --- Produto ---\n");
