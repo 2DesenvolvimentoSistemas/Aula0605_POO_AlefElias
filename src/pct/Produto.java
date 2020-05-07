@@ -22,7 +22,7 @@ public class Produto {
         System.out.println("Código: " + codigo);
         System.out.println("Descrição: " + descricao);
         System.out.println("Setor: " + setor);
-        System.out.println("Preço: " + preco);
+        System.out.println("Preço: R$ " + preco);
         System.out.println("Disponível: " + disponivel);
     }
     
