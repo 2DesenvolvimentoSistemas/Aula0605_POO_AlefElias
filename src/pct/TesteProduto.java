@@ -18,13 +18,13 @@ public class TesteProduto {
         
         //Cnstrução do objeto
         
-        meuProduto.codigo='1';
+        meuProduto.codigo='0';
         
         meuProduto.descricao="Arroz";
         
         meuProduto.setor='M';
         
-        meuProduto.preco= 2.00;
+        meuProduto.preco= 10.00;
         
         meuProduto.desconto='5';
         
