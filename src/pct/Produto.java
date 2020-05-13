@@ -26,9 +26,9 @@ public class Produto {
         System.out.println("Disponível: " + disponivel);
     }
     
-    public double calcularDesconto(){
+    public void calcularDesconto(){
         preco = preco - (preco * 0.1);
         //System.out.println("Desconto de 10 porcento: " + desconto);
-        return preco;
+        //return preco;
     }
 }
