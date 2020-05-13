@@ -18,20 +18,27 @@ public class TesteProduto {
         
         //Cnstrução do objeto
         
-        meuProduto.codigo='0';
+        meuProduto.codigo = 0;
         
-        meuProduto.descricao="Feijão";
+        meuProduto.descricao = "Feijão";
         
-        meuProduto.setor='M';
+        meuProduto.setor = 'M';
         
-        meuProduto.preco= 10.00;
+        meuProduto.preco = 10.00;
         
-        meuProduto.desconto='5';
+//        meuProduto.desconto='5';
         
-        meuProduto.disponivel= true;
+        meuProduto.disponivel = true;
         
         //Exibindo a minha caranga.
         System.out.println("\n\t\t\t --- Produto ---\n");
+        meuProduto.imprimirProduto();
+        
+        //Testando o médoto calcular desconto
+        meuProduto.calcularDesconto();
+        
+        //Imprimir o produto com desconto
+        System.out.println("\n\t\t\t -- Produto com Desconto --\n");
         meuProduto.imprimirProduto();
         
         

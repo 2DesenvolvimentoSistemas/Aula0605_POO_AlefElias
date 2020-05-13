@@ -13,9 +13,9 @@ public class Produto {
     //Atributos
     int codigo;
     String descricao;
-    char setor; //P = Privado, M = Mercearia
+    char setor; //P = Perecíveis, M = Mercearia
     double preco;
-    double desconto;
+    //double desconto; atributo não listado
     boolean disponivel;
     
     public void imprimirProduto(){
@@ -26,8 +26,9 @@ public class Produto {
         System.out.println("Disponível: " + disponivel);
     }
     
-    public void calcularDesconto(){
-        desconto = preco - (preco * 0.1);
-        System.out.println("Desconto de 10 porcento: " + desconto);
+    public double calcularDesconto(){
+        preco = preco - (preco * 0.1);
+        //System.out.println("Desconto de 10 porcento: " + desconto);
+        return preco;
     }
 }
