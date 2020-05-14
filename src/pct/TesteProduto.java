@@ -13,10 +13,10 @@ public class TesteProduto {
 
     public static void main(String[] args) {
 
-        //Criação em instancia do objeto da classe veiculo.
+        //Criação em instancia do objeto da classe Produto.
         Produto meuProduto = new Produto();
         
-        //Cnstrução do objeto
+        //Construção do objeto
         
         meuProduto.codigo = 0;
         
@@ -30,14 +30,14 @@ public class TesteProduto {
         
         meuProduto.disponivel = true;
         
-        //Exibindo a minha caranga.
+        //Exibindo o meu Produto.
         System.out.println("\n\t\t\t --- Produto ---\n");
         meuProduto.imprimirProduto();
         
-        //Testando o médoto calcular desconto
+        //Testando o médoto calcular desconto.
         meuProduto.calcularDesconto();
         
-        //Imprimir o produto com desconto
+        //Imprimir o produto com desconto.
         System.out.println("\n\t\t\t -- Produto com Desconto --\n");
         meuProduto.imprimirProduto();
         
