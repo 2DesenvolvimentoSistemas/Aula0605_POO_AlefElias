@@ -7,7 +7,7 @@ package pct;
 
 /**
  *
- * @author Almir
+ * @author Alef
  */
 public class TesteProduto {
 
