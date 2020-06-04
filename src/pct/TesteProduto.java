@@ -18,17 +18,17 @@ public class TesteProduto {
         
         //Construção do objeto
         
-        meuProduto.codigo = 0;
+        meuProduto.setCodigo(0);
         
-        meuProduto.descricao = "Feijão";
+        meuProduto.setDescricao("Feijão");
         
-        meuProduto.setor = 'M';
+        meuProduto.setSetor('M');
         
-        meuProduto.preco = 10.00;
+        meuProduto.setPreco(10.00);
         
 //        meuProduto.desconto='5';
         
-        meuProduto.disponivel = true;
+        meuProduto.setDisponivel(true);
         
         //Exibindo o meu Produto.
         System.out.println("\n\t\t\t --- Produto ---\n");
@@ -41,7 +41,12 @@ public class TesteProduto {
         System.out.println("\n\t\t\t -- Produto com Desconto --\n");
         meuProduto.imprimirProduto();
         
+        //Criação em instancia do objeto da classe Produto.
+        Produto outroProduto = new Produto(77, "Arroz", 'P', 9.90, true);
         
+        //Exibindo o meu Produto.
+        System.out.println("\n\t\t\t --- Produto ---\n");
+        outroProduto.imprimirProduto();
     }
     
 }
